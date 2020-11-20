@@ -1,0 +1,12 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+      
+# Eclipse #
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
