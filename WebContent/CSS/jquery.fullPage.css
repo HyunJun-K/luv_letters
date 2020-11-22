@@ -63,11 +63,12 @@ html.fp-enabled,
 #section1,
 #section2,
 #section3{
-    background-size: cover;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 #section1 {
-	background-image: url("../imgs/duy-pham-Cecb0_8Hx-o-unsplash.jpg");
+	background-image: url("../imgs/florian-klauer-mk7D-4UCfmg-unsplash.jpg");
 
 }
 

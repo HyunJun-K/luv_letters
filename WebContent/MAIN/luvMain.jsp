@@ -34,7 +34,7 @@
 				<br><br><br>
 		</div>
 		<div id="section2" class="section second">
-			<h1 class="main_title">회원 가입을 통해 연락처 서비스를 이용하실 수 있습니다</h1>
+			<h1> 멤버쉽 서비스를 이용한 다양한 혜택을 만나보세요 </h1>
 		
 		 </div>
 		

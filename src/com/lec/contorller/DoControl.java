@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.lec.interfaces.commend;
 
-@WebServlet(".ME")
+//@WebServlet(".ME")
 public class DoControl extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;

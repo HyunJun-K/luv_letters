@@ -15,7 +15,7 @@ $(document).ready(function(){
 		navigation:true,
 		navigationPosition: 'right',
 		navigationTooltips:['1','2','3','4'],
-		sectionsColor : ['#ffcccc','#ffffcc','#ffeecc','#ffeeaa'],
+		sectionsColor : ['null','null','#ffeecc','#ffeeaa'],
 		showActiveTooltip : true,
 		sectionSelector : '.section',
 		slideSelector : '.slide',
