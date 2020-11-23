@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import com.lec.interfaces.commend;
 
 //@WebServlet(".ME")
-public class DoControl extends HttpServlet {
+public class MeControl extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
-	public DoControl() {
+	public MeControl() {
 		super();
 	}
 	
