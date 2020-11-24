@@ -63,23 +63,46 @@ html.fp-enabled,
 #section1,
 #section2,
 #section3{
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
+	background-size: cover;
+
+	
+	
 }
 
-#section1 {
-	background-image: url("../imgs/florian-klauer-mk7D-4UCfmg-unsplash.jpg");
 
+
+
+
+
+#section1 {
+	background-image: url("../imgs/letter.jpg");
+
+}
+
+#section1 img{
+		opacity: 0.5;
+}
+
+
+fp-tableCell main_box {
+	display:inline-block;
+	padding:20px;
+	background-color: #ffffff;
+	opacity: 0.5;
+	text-align: center;
+	width: 80%;
+	
 }
 
 .fp-tableCell .main_title {
 	font-family: 'Black Han Sans', sans-serif;
 	font-size: 50px;
+	color : #2b2b2b;
 }
 
 
 .fp-tableCell .letter_icons{
-	color:black;
+	color:#2b2b2b;
 	font-size : 45px;
 	padding:5px;
 	cursor: pointer;

@@ -24,8 +24,7 @@ $(document).ready(function(){
 	});
 	
 	$("#icons").on("click",function(){
-		alert("test");
-		location.href="mail_Service.ME";
+		location.href="mail_Service.jsp";
 	})
 	
 });
