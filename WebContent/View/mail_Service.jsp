@@ -35,7 +35,7 @@
 					class="validate[required,custom[email]] feedback-input" id="email"
 					placeholder="Email" />
 			</p>
-
+			
 			<p class="text">
 				<textarea name="text"
 					class="validate[required,length[6,300]] feedback-input"
