@@ -52,10 +52,10 @@ public class MeControl extends HttpServlet {
 			
 			
 			
-			case "/View/mail_Service.ME":
+			case "/View/mailSend_ok.ME":
 			cmd = new mail_Service_cmd();
 			cmd.excute(request, response);
-			viewPage = "mail_Service.jsp";
+			viewPage = "mailSend_ok.jsp";
 			break;
 			
 			
