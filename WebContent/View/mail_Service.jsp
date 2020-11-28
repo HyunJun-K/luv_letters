@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,12 +25,15 @@
 <body>
 	<div id="form-div">
 		<form class="form" id="form1" name="myforms" action="mailSend_ok.ME" method="POST" onsubmit="return chk_data()">
+			
+			
+			
 			<p class="name">
-				
-				<input name="name" type="text"
+				<input name="title" type="text"
 					class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
-					placeholder="Name" id="name" />
+					placeholder="Title" id="name" />
 			</p>
+
 
 			<p class="email">
 				<input name="email" type="text"
@@ -45,14 +50,17 @@
 			<p class="g-recaptcha " data-sitekey="6LffD-IZAAAAANuqCjSeHuEyjZ9AXUQn9jFkn5NZ"></p> 
 				
 			<div class="submit">
-				<input type="submit" id="button-blue" />
+				<!--  <input type="submit" id="button-blue" />-->
+				<button type="submit" id="button-blue"> 전송</button>
+				<button type="button" id="button-blue"onclick="history.back()"> 취소 </button>
 				<div class="ease"></div>
 			</div>
+			
 		
 		
 		</form>
 	</div>
 
-
+<jsp:include page="../loading/emailLoading.jsp"/>
 </body>
 </html>

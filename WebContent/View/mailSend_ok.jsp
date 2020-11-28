@@ -1,12 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+    
+<%
+	int ok = (int) request.getAttribute("mailok");
 
-</body>
-</html>
+%>
+
+<%if(ok == 200  ){ %>
+	<script>
+		alert("메일전송이 성공했습니다.");
+		location.href = "luvMain.jsp"
+	</script>
+<%}%>

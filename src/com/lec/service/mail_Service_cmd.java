@@ -17,44 +17,42 @@ import com.lec.commends.Commend;
 
 public class mail_Service_cmd implements Commend{
 
+	
+	static final String user ="LTNSReport";	  // google
+	static final String password ="!admin123"; // google 
+	
+	
+	
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
 		
 		
-		String name = request.getParameter("name");
+	
 		String title = request.getParameter("title");
 		String email = request.getParameter("email");
 		String text = request.getParameter("text");
 		
-	
-		//email naver, gamil 구분 
-		//String potal = email.substring(, );		
-		//System.out.println(potal);
+		
+		gmailService(email, text, title, request);
+			
 		
 		
-		
-		//gmailService(email, text, name, title);
 		
 	}
 	
 	
 	//gmail service
-	public static void gmailService(String email, String text, String name, String title) {
+	public static void gmailService(String email, String text, String title, HttpServletRequest request) {
 
-		//발신자 메일 서비스 
-		final String user ="";
-		final String password ="";
-		
 	
 		//Property에 smtp 서버 정보를 설정 
-		
 		Properties prop = new Properties();
-		prop.put("mail.stmp.host", "stmp.gmail.com"); // stmp server
-		prop.put("mail.stmp.port", 465); // google 465, naver 587 
-		prop.put("mail.stmp.auth", "true");
-		prop.put("mail.stmp.ssl.enable", "true");
-		prop.put("mail.stmp.ssl.trust", "stmp.gmail.com");
-		
+		prop.put("mail.smtp.host", "smtp.gmail.com"); 
+		prop.put("mail.smtp.port", 465); 
+		prop.put("mail.smtp.auth", "true"); 
+		prop.put("mail.smtp.ssl.enable", "true"); 
+		prop.put("mail.smtp.ssl.trust", "smtp.gmail.com");
+
 		
 		Session session = Session.getDefaultInstance(prop, new javax.mail.Authenticator() {
 			
@@ -68,26 +66,30 @@ public class mail_Service_cmd implements Commend{
 		
 		try {
 			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(email)); // 수신자 메일주소
-			message.addRecipient(Message.RecipientType.TO, new InternetAddress("luv_letter@letterServer.com")); //발신자 메일
+			message.setFrom(new InternetAddress(user)); //  메일주소
+			message.addRecipient(Message.RecipientType.TO, new InternetAddress(email)); //수신자 메일
 			
 			message.setSubject(title); //제목 
 			message.setText(text);
 			
 			Transport.send(message);
+			request.setAttribute("mailok", 200);
 			System.out.println("메세지 전송중");
-			
+		
 		}catch (AddressException e) {
 			e.printStackTrace();
 			System.out.println("adress exception");
+			request.setAttribute("mailok", 200);
 		}catch (MessagingException e) {
 			e.printStackTrace();
 			System.out.println("Messaging exception");
 			
+			
 		}
 		
+		request.setAttribute("mailok", 200);
 		
-	}
+	}	// end google Mail
 	
 
 }

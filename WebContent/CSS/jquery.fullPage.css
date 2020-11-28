@@ -63,9 +63,6 @@ html.fp-enabled,
 #section1,
 #section2,
 #section3{
-	background-size: cover;
-
-	
 	
 }
 
@@ -75,8 +72,11 @@ html.fp-enabled,
 
 
 #section1 {
+	/*
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
 	background-image: url("../imgs/letter.jpg");
-
+	*/
 }
 
 #section1 img{

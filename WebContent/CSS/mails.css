@@ -53,7 +53,7 @@ border:#30aed6 solid 3px;
 name : 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a>
 mail : 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a>
 pan : 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a> 
- 
+title : 아이콘 제작자 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a>
  */
 #name{
 background-image: url(../svg/free-icon-name-1828439.svg);
@@ -61,6 +61,15 @@ background-size: 30px 30px;
 background-position: 11px 8px;
 background-repeat: no-repeat;
 }
+
+#name{
+background-image: url(../svg/free-icon-name-1828439.svg);
+background-size: 30px 30px;
+background-position: 11px 8px;
+background-repeat: no-repeat;
+}
+
+
 
 #email{
 background-image: url(../svg/free-icon-envelope-3388206.svg);
@@ -88,7 +97,8 @@ input:focus, textarea:focus {
 background-color:white;
 }
 
-#button-blue{
+#back-blue {
+	
 font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 float:left; /* 플롯 중요(::after 가상요소 이용)*/
 width: 100%;
@@ -104,12 +114,14 @@ padding-bottom:22px;
 transition: all 0.3s;
 margin-top:-4px;
 font-weight:700;
+
 }
 
-#button-blue:hover{
+#back-blue:hover{
 background-color: rgba(0,0,0,0);
 color: #0493bd;
 }
+
 
 .ease {
 width: 0;

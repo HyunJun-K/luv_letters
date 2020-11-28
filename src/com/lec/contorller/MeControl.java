@@ -2,6 +2,7 @@ package com.lec.contorller;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -50,8 +51,6 @@ public class MeControl extends HttpServlet {
 			
 			switch(com) {
 			
-			
-			
 			case "/View/mailSend_ok.ME":
 			cmd = new mail_Service_cmd();
 			cmd.excute(request, response);
@@ -62,6 +61,12 @@ public class MeControl extends HttpServlet {
 			
 			}
 			
+			
+			
+			if(viewPage != null) {
+				RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
+				dispatcher.forward(request, response);
+			}
 	}
 	
 	

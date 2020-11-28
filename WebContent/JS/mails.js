@@ -1,7 +1,4 @@
-
-
-
-	function chk_data() {
+function chk_data() {
 		var frm = document.forms['myforms'];
 		var name = frm['name'].value.trim();
 		var email = frm['email'].value.trim();
@@ -32,12 +29,18 @@
 	        return false;
 	    }
 	    
+	    if(v.length != 0)
+	    {
+	    	alert("왜안들어와??");
+	    	$("#form-div").hide();
+	    	$("#staticBackdrop").modal("show");
+	    	return true;
+	    }
 	    
-	    return true;
-	}
 	    
-	  	
-	
+	    
+}// end form function 
+
 
 
 

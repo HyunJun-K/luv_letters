@@ -36,7 +36,9 @@
 		</div>
 		<div id="section2" class="section second">
 			<h1> 멤버쉽 서비스를 이용한 다양한 혜택을 만나보세요 </h1>
-		
+			<button> 가입하기 </button>
+			<button> 알아보기 </button>
+			
 		 </div>
 		
 		
