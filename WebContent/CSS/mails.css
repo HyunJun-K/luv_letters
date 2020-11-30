@@ -150,7 +150,6 @@ transition: .3s ease;
 	z-index: 99;
 	text-align: center;
 }
-
 #loading-image {
 	position: absolute;
 	top: 50%;
