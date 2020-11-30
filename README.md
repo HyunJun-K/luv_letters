@@ -5,7 +5,10 @@
  
 ## 제작 할때 사용했던 img, svg , video는 제외하였습니다.
 
+
+### 폼 css 디자인 참고 
+ - https://webclub.tistory.com/554
+
 ---
 ###메인 
-![Uploading bandicam-2020-12-01-02-19-26-769.gif…]()
 ---
