@@ -10,5 +10,9 @@
  - https://webclub.tistory.com/554
 
 ---
-###메인 
+### 메인 
 ---
+### 메일 전송
+![mails](https://user-images.githubusercontent.com/54566087/100647194-7c5a7480-3382-11eb-9768-492942938175.gif)
+
+
