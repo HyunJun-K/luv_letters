@@ -149,7 +149,6 @@ transition: .3s ease;
 	background-color: #fff;
 	z-index: 99;
 	text-align: center;
-
 }
 #loading-image {
 	position: absolute;
