@@ -19,6 +19,7 @@
 
 ---
 ### 메일 결과 
+![1](https://user-images.githubusercontent.com/54566087/100647863-71ecaa80-3383-11eb-87c0-94298cd2cd79.PNG)
 
 
 
