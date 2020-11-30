@@ -11,8 +11,14 @@
 
 ---
 ### 메인 
+![__main](https://user-images.githubusercontent.com/54566087/100647542-07d40580-3383-11eb-9e08-aac9f4e28421.gif)
+
 ---
 ### 메일 전송
 ![mails](https://user-images.githubusercontent.com/54566087/100647194-7c5a7480-3382-11eb-9768-492942938175.gif)
+
+---
+### 메일 결과 
+
 
 
