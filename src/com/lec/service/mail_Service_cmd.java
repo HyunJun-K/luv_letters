@@ -17,9 +17,9 @@ import com.lec.commends.Commend;
 
 public class mail_Service_cmd implements Commend{
 
-	
-	static final String user ="LTNSReport";	  // google
-	static final String password ="!admin123"; // google 
+
+	static final String user ="your mail";	  // google
+	static final String password ="your mail"; // google 
 	
 	
 	
