@@ -58,6 +58,15 @@ public class MeControl extends HttpServlet {
 			break;
 			
 			
+			case "/View/luvMain.ME":
+				viewPage = "luvMain.jsp";
+				break;
+				
+			case "/View/mail_Service.ME":
+				viewPage = "mail_Service.jsp";
+				break;
+			
+			
 			
 			}
 			

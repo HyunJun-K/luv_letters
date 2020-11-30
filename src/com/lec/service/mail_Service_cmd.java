@@ -79,7 +79,7 @@ public class mail_Service_cmd implements Commend{
 		}catch (AddressException e) {
 			e.printStackTrace();
 			System.out.println("adress exception");
-			request.setAttribute("mailok", 200);
+			request.setAttribute("mailok", 400);
 		}catch (MessagingException e) {
 			e.printStackTrace();
 			System.out.println("Messaging exception");

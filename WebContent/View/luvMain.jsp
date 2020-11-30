@@ -28,22 +28,55 @@
 
 
 	<div id="fullpage">
-		<div id="section1" class="section first">
-			<div class="main_box">
-			<span class="main_title">추운 겨울 당신의 소중한 사람들에게 따뜻한 메세지를 전해보세요</span>
-				<h1 class="letter_icons"><i id="icons" class="fas fa-envelope-square"></i> </h1>
-			</div>	
-		</div>
-		<div id="section2" class="section second">
-			<h1> 멤버쉽 서비스를 이용한 다양한 혜택을 만나보세요 </h1>
-			<button> 가입하기 </button>
-			<button> 알아보기 </button>
+	
+	
+	
 			
+			
+			
+		<div id="section1" class="section first">
+			<video id="myVideo" loop muted data-autoplay>
+		   	<source src="your video" type="video/mp4">
+		   </video>
+			<div class="titles">
+				 <div class="layer">
+			 	 올해가 지나기전에 <br>
+				  소중한 사람에게 <br>
+				  따뜻한 메세지를  <br>
+				  전달해보시는건 어떨까요?
+				</div>
+			</div>	  
+		</div>
+		
+		<div id="section2" class="section second">
+			<div class="titles">
+				당신의 사소한 <br>
+				그 한마디가 <br> 
+				다른 사람에게는 <br> 
+				힘이 될 수 있습니다.
+			</div>
 		 </div>
 		
 		
-		<div id="section3" class="section third">Some section3 </div>
-		<div id="section4" class="section fourth">Some section4 </div>
+		<div id="section3" class="section third">
+			<div class="titles_center">
+				우리는 비밀스럽고<br>
+				조심스럽게<br> 
+				전해드립니다 <br> 
+				저희는 <span id="tomato">Luv_letter Service</span> 입니다
+			</div>
+		</div>
+		
+		
+		
+		<div id="section4" class="section fourth">
+		   <div class="titles_center">
+				<span >Luv_letter Service</span> <br>
+					<span id="whites"> 서비스 이용하기 </span> <br>
+					<i id="icons" class="fas fa-envelope-square"></i>
+					
+			</div>
+		 </div>
 
 	</div>
 

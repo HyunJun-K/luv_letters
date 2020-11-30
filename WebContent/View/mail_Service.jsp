@@ -17,7 +17,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-<!-- css link & Js link  -->
+<!-- css link & Js link   -->
 <link rel="stylesheet" type="text/css" href="../CSS/mails.css">
 <script type="text/javascript" src="../JS/mails.js"></script>
 
@@ -51,8 +51,8 @@
 				
 			<div class="submit">
 				<!--  <input type="submit" id="button-blue" />-->
-				<button type="submit" id="button-blue"> 전송</button>
-				<button type="button" id="button-blue"onclick="history.back()"> 취소 </button>
+				<button type="submit" id="back-blue"> 전송</button>
+				<button type="button" id="back-blue" onclick="history.back()"> 취소 </button>
 				<div class="ease"></div>
 			</div>
 			
@@ -61,6 +61,10 @@
 		</form>
 	</div>
 
-<jsp:include page="../loading/emailLoading.jsp"/>
+	<div id="loading" style="display: none">
+		<img id="loading-image" src="../imgs/ajax-loader.gif"/>
+	</div>
+
+
 </body>
 </html>

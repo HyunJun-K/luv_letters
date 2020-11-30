@@ -15,7 +15,6 @@ $(document).ready(function(){
 		navigation:true,
 		navigationPosition: 'right',
 		navigationTooltips:['1','2','3','4'],
-		sectionsColor : ['null','null','#ffeecc','#ffeeaa'],
 		showActiveTooltip : true,
 		sectionSelector : '.section',
 		slideSelector : '.slide',
@@ -24,7 +23,7 @@ $(document).ready(function(){
 	});
 	
 	$("#icons").on("click",function(){
-		location.href="mail_Service.jsp";
+		location.href="mail_Service.ME";
 	})
 	
 });

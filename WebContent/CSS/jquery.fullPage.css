@@ -59,29 +59,79 @@ html.fp-enabled,
  	
 }
 
-#section0,
-#section1,
-#section2,
-#section3{
-	
+.fp-section2{
+   background-size: cover;
+   background-image: url("your imgs");
 }
 
 
+/* video*/
 
 
-
-
-#section1 {
-	/*
-	background-size: 50% 50%;
-	background-repeat: no-repeat;
-	background-image: url("../imgs/letter.jpg");
-	*/
+element.style {
 }
 
-#section1 img{
-		opacity: 0.5;
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    background-image: /* our video */;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index: 3;
 }
+
+#section1 .layer {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 30%;
+    margin-left: 10%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    text-align: left;
+    color : white;
+}
+
+/* icon */
+#whites {
+	color:white;
+}
+#icons{
+	color: white;
+}
+
+#icons:hover {
+	cursor: pointer;
+	color:aqua;
+}
+
+
+/* images*/
+
+
+#section2{
+		background-image: url("your image");
+		background-size: 50% 100%;
+		background-repeat: no-repeat;
+		
+}
+
+
+#section4{
+		background-color: orange;		
+}
+
+
 
 
 fp-tableCell main_box {
@@ -93,6 +143,31 @@ fp-tableCell main_box {
 	width: 80%;
 	
 }
+
+/*section 1 */
+
+#tomato {
+	color: tomato;
+}
+
+.fp-tableCell .titles {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 60px;
+	color : #2b2b2b;
+	text-align: right;
+	margin-right: 7%;
+}
+
+.fp-tableCell .titles_center {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 60px;
+	color : #2b2b2b;
+	text-align: center;
+	margin-right: 7%;
+}
+
+
+
 
 .fp-tableCell .main_title {
 	font-family: 'Black Han Sans', sans-serif;

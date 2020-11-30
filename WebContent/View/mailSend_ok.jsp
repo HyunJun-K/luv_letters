@@ -6,9 +6,14 @@
 
 %>
 
-<%if(ok == 200  ){ %>
+<%if(ok == 200){ %>
 	<script>
 		alert("메일전송이 성공했습니다.");
 		location.href = "luvMain.jsp"
+	</script>
+<%}else{%>
+	<script>
+		alert("메일전송 실패.");
+		location.href = "histroy.back()"
 	</script>
 <%}%>
